@@ -51,14 +51,14 @@ This library is part of the [CLDR](https://cldr.unicode.org)-based libraries for
 
 ## Installation
 
-The package can be installed by adding `cldr_calendars_japanese` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `ex_cldr_calendars_japanese` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:cldr_calendars_japanese, "~> 1.0.0"}
+    {:ex_cldr_calendars_japanese, "~> 1.0"}
   ]
 end
 ```
-Documentation can be found at [https://hexdocs.pm/cldr_calendars_japanese](https://hexdocs.pm/cldr_calendars_japanese).
+Documentation can be found at [https://hexdocs.pm/ex_cldr_calendars_japanese](https://hexdocs.pm/ex_cldr_calendars_japanese).
 

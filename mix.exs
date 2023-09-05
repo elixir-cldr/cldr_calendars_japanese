@@ -1,7 +1,7 @@
 defmodule Cldr.Calendars.Coptic.MixProject do
   use Mix.Project
 
-  @version "1.0.0"
+  @version "1.0.1"
 
   def project do
     [
@@ -61,9 +61,9 @@ defmodule Cldr.Calendars.Coptic.MixProject do
 
   def links do
     %{
-      "GitHub" => "https://github.com/elixir-cldr/cldr_calendars_coptic",
-      "Readme" => "https://github.com/elixir-cldr/cldr_calendars_coptic/blob/v#{@version}/README.md",
-      "Changelog" => "https://github.com/elixir-cldr/cldr_calendars_coptic/blob/v#{@version}/CHANGELOG.md"
+      "GitHub" => "https://github.com/elixir-cldr/cldr_calendars_japanese",
+      "Readme" => "https://github.com/elixir-cldr/cldr_calendars_japanese/blob/v#{@version}/README.md",
+      "Changelog" => "https://github.com/elixir-cldr/cldr_calendars_japanese/blob/v#{@version}/CHANGELOG.md"
     }
   end
 

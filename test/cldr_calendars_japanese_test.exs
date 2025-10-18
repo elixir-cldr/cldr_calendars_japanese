@@ -20,7 +20,7 @@ defmodule Cldr.Calendar.Japanese.Test do
     assert Cldr.Calendar.year_of_era(~D[1865-04-07 Cldr.Calendar.Japanese]) == {1, 231}
     assert Cldr.Calendar.year_of_era(~D[1868-09-07 Cldr.Calendar.Japanese]) == {4, 231}
 
-    assert Cldr.Calendar.year_of_era(~D[1868-09-08 Cldr.Calendar.Japanese]) == {1, 232}
+    assert Cldr.Calendar.year_of_era(~D[1868-10-23 Cldr.Calendar.Japanese]) == {1, 232}
   end
 
   test "Era localization" do

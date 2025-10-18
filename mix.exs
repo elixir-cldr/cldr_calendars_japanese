@@ -1,13 +1,13 @@
 defmodule Cldr.Calendars.Coptic.MixProject do
   use Mix.Project
 
-  @version "1.0.1"
+  @version "1.1.0"
 
   def project do
     [
       app: :ex_cldr_calendars_japanese,
       version: @version,
-      elixir: "~> 1.11",
+      elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       source_url: "https://github.com/elixir-cldr/cldr_calendars_japanese",
@@ -52,10 +52,11 @@ defmodule Cldr.Calendars.Coptic.MixProject do
 
   defp deps do
     [
-      {:ex_cldr_calendars, "~> 1.22"},
+      # {:ex_cldr_calendars, "~> 2.4"},
+      {:ex_cldr_calendars, github: "elixir-cldr/cldr_calendars", branch: "cldr48"},
 
-      {:stream_data, "~> 0.4", only: :test, optional: true},
-      {:ex_doc, "~> 0.19", only: [:release, :dev], optional: true, runtime: false}
+      {:stream_data, "~> 1.0", only: :test, optional: true},
+      {:ex_doc, "~> 0.23", only: [:release, :dev], optional: true, runtime: false}
     ]
   end
 

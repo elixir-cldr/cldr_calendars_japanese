@@ -4,13 +4,13 @@ This library implements the Japanese calendar. For the Japanese lunisolar ("Chin
 
 From [wikipedia](https://en.wikipedia.org/wiki/Japanese_calendar):
 
-Japan uses the Gregorian calendar together with year designations stating the year of the reign of the current Emperor. The written form starts with the year, then the month and finally the day, coinciding with the ISO 8601 standard. For example, February 16, 2003, can be written as either 2003年2月16日 or 平成15年2月16日 (the latter following the regnal year system). 年 reads nen and means "year", 月 reads gatsu (がつ) and means "month" and finally 日 (usually) reads nichi (its pronunciation depends on the number that precedes it, see below) and means "day".
+Japan uses the Gregorian calendar together with year designations stating the year of the reign of the current Emperor. The written form starts with the year, then the month and finally the day, coinciding with the ISO 8601 standard. For example, February 16, 2003, can be written as either 2003年2月16日 or 平成15年2月16日 (the latter following the regnal year system). 年 reads nen and means "year", 月 reads gatsu (がつ) and means "month" and finally 日 (usually) reads nichi (its pronunciation depends on the number that precedes it) and means "day".
 
 ## Usage
 
 [ex_cldr_calendars_japanese](https://hex.pm/packages/ex_cldr_calenars_japanese) conforms to both the `Calendar` and `Cldr.Calendar` behaviours and therefore the functions in the `Date`, `DateTime`, `NaiveDateTime`, `Time` and `Calendar` functions are supported.
 
-Use either `Date/new/4` or `Sigil_D`:
+Use either `Date.new/4` or `Sigil_D`:
 ```
 iex> ~D[2023-03-30 Cldr.Calendar.Japanese]
 ~D[2023-03-30 Cldr.Calendar.Japanese]

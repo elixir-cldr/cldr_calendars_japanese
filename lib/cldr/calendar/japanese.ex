@@ -13,6 +13,11 @@ defmodule Cldr.Calendar.Japanese do
     day_of_week: Cldr.Calendar.monday(),
     cldr_calendar_type: :japanese
 
+  def calendar_year(year, month, day) do
+    {year, _era} = year_of_era(year, month, day)
+    year
+  end
+
   defdelegate date_from_iso_days(iso_days), to: Cldr.Calendar.Gregorian
   defdelegate date_to_iso_days(year, month, day), to: Cldr.Calendar.Gregorian
 

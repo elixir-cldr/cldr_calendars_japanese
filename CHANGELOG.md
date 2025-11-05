@@ -4,7 +4,7 @@
 
 ## Cldr_Calendars_Japanese 1.1.0
 
-This is the changelog for ex_cldr_calendars_japanese v1.1.0 released on October ___, 2025.  For older changelogs please consult the release tag on [GitHub](https://github.com/elixir-cldr/cldr_calendars_japanese/tags)
+This is the changelog for ex_cldr_calendars_japanese v1.1.0 released on November 6th, 2025.  For older changelogs please consult the release tag on [GitHub](https://github.com/elixir-cldr/cldr_calendars_japanese/tags)
 
 ### Bug Fixes
 

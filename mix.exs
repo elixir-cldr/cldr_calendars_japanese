@@ -52,8 +52,7 @@ defmodule Cldr.Calendars.Coptic.MixProject do
 
   defp deps do
     [
-      # {:ex_cldr_calendars, "~> 2.4"},
-      {:ex_cldr_calendars, github: "elixir-cldr/cldr_calendars", branch: "cldr48"},
+      {:ex_cldr_calendars, "~> 2.4"},
 
       {:stream_data, "~> 1.0", only: :test, optional: true},
       {:ex_doc, "~> 0.23", only: [:release, :dev], optional: true, runtime: false}
